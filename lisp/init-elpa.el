@@ -81,7 +81,10 @@
     htmlize
     scratch
     session
+    rust-mode
     flymake-lua
+    flymake-rust
+    flycheck-rust
     multi-term
     inflections
     lua-mode

@@ -16,7 +16,7 @@
 
 ;; don't GC during startup to save time
 (setq gc-cons-threshold most-positive-fixnum)
-
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 (setq emacs-load-start-time (current-time))
 
 ;; {{ emergency security fix
@@ -136,6 +136,8 @@
   (require 'init-dired)
   (require 'init-artbollocks-mode)
   (require 'init-writting)
+  (require 'init-color-theme)
+  (require 'init-smex)
 
   ;; @see https://github.com/hlissner/doom-emacs/wiki/FAQ
   ;; Adding directories under "site-lisp/" to `load-path' slows
