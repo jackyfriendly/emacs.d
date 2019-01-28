@@ -134,7 +134,6 @@
   (require 'init-hydra)
   (require 'init-shackle)
   (require 'init-dired)
-  (require 'init-artbollocks-mode)
   (require 'init-writting)
   (require 'init-color-theme)
   (require 'init-smex)
